@@ -1,0 +1,15 @@
+# [教程](https://www.runoob.com/cssref/css3-pr-columns.html)
+- columns:auto auto;指定列宽度和数量
+  - column-width
+  - column-count
+- column-width:auto;指定列宽
+- column-count;auto;指定列数
+- column-rule:medium none black;指定列之前的宽度、样式和颜色
+  - column-rule-width
+  - column-rule-style:none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset;
+  - column-rule-color
+- column-span:none|all;指定某个元素应该跨几列
+- column-gap:normal;指定列之前的距离
+- column-fill:auto | balance;
+  - auto::列顺序填充，他们将有不同的长度
+  - balance:列长短平衡。浏览器应尽量减少改变列的长度
